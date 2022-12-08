@@ -5,3 +5,4 @@
 You can see the notes on each module directory:
 
 1. [Module 1](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-1/README.md)
+2. [Module 2](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/README.md)
