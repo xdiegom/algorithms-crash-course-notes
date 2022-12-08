@@ -1,8 +1,6 @@
-## **Module 1**
+## **Module 2**
 
 ### **Math algorithms**
-
-<br>
 
 #### **Fibonacci Algorithm**
 
