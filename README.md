@@ -2,7 +2,8 @@
 
 ⚠️ Disclaimer: the examples in this repository will be in JavaScript and are notes from the course.
 
-## **What and Why are algorithms?**
+## **Module 1**
+### **What and Why are algorithms?**
 
 Algorithms are a sequence of steps (instructions) to solve a *clearly* defined problem.
 
