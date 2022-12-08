@@ -6,7 +6,7 @@
  Define the Time Complexity of that algorithm and determine what the lowest possible Time Complexity is
  for this problem.
  */
-console.info("**** PRACTICE ONE - CALCULATING TIME COMPLEXITY ****");
+console.info("**** MODULE ONE - CALCULATING TIME COMPLEXITY ****");
 function sumNumbers(numbers) {
   let result = 0; // executed = 1
   for (const number of numbers) {
