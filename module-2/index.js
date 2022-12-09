@@ -1,3 +1,7 @@
 console.info("**** MODULE TWO - MATH ALGORITHMS ****");
 
-import './fibonacci.js'
+import fibonacci from "./fibonacci.js";
+import prime from "./prime.js";
+
+fibonacci();
+prime();

@@ -20,3 +20,24 @@ The algorithm needs to do **two things**:
 You can see the code for fibonacci [here](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/fibonacci.js)
 
 See the console of your web browser to see the result.
+
+#### **Prime Algorithm**
+
+"_Is a sequence of infinite numbers where every other element is the sum of its two precending elements._"
+
+#### **💭 Problem**
+
+Determine whether an input number is a prime number
+
+- isPrime(9) // false
+- isPrime(5) // true
+
+A prime number is a number that can only be divided by 1 and by itself.
+
+The algorithm needs to do **one thing**:
+
+1. Try dividing the number by all smaller numbers and return true if it's only divisible by itself and 1
+
+You can see the code for prime [here](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/prime.js)
+
+See the console of your web browser to see the result.
