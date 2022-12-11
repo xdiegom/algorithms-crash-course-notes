@@ -41,3 +41,18 @@ The algorithm needs to do **one thing**:
 You can see the code for prime [here](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/prime.js)
 
 See the console of your web browser to see the result.
+
+
+#### **Determine the Nature of an Algorithm**
+
+We have seen to Big O notation by far, and these are:
+- O(n): Higher n leads to a linear increase in runtime. 
+- O(1): Higher n does not affect runtime.
+
+##### **How to quickly identify the time complexity of an algorithm?**
+
+There are two simple rules to identify the complexity of an algorithm:
+
+1. > Typically when you have a single loop (no nested loops), it is often that the complexity will be O(n) [Linear time complexity]
+
+2. > If there are no loops and no nested function calls, it is often that is a O(1) complexity [Constant time complexity]
