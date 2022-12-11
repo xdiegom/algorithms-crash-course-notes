@@ -71,6 +71,6 @@ If we have the binary representation for the integers 12 (1100) and 5 (0101), th
 0101 // yields
 ```
 
-See the the example function that performs an O(1) for the "is power of two? algorithm"
+See the the [code example](https://github.com/xdiegom/algorithms-crash-course-notes/blob/2c57d2bf0ae52f6d40046c37c80dd0281ba94103/module-2/is-power-of-two.js#L28) function that performs an O(1) for the "is power of two? algorithm"
 
 ⚠️ It is not a very common interview question but this is a really nice approach to find the best performance to solve this problem.
