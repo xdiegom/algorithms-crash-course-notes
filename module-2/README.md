@@ -41,21 +41,40 @@ The algorithm needs to do **one thing**:
 You can see the code for prime [here](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/prime.js)
 
 See the console of your web browser to see the result.
+#### **Is power of two?**
 
+"_Is the mathematical operation where the input number is the power of the number 2 as the form of 2^n._"
+
+#### **💭 Problem**
+
+Determine if the given number is power of two. Returns "true" if is power of two, otherwise return "false"
+
+- isPowerOfTwo(8) // true
+- isPowerOfTwo(5) // false
+
+
+The algorithm needs to do **one thing**:
+
+1. Divide the number and future division result by two, until 1 is reached and check if the number is mod of 2.
+
+See the console of your web browser to see the result.
 
 #### **Determine the Nature of an Algorithm**
 
 We have seen to Big O notation by far, and these are:
 - O(n): Higher n leads to a linear increase in runtime. 
 - O(1): Higher n does not affect runtime.
+- O(log n): Runtime grows with n but at a much lowe pace
 
 #### **How to quickly identify the time complexity of an algorithm?**
 
 There are two simple rules to identify the complexity of an algorithm:
 
-1. > Typically when you have a single loop (no nested loops), it is often that the complexity will be O(n) [Linear time complexity]
+1. > O(n): Typically when you have a single loop (no nested loops), it is often that the complexity will be O(n) [Linear time complexity]
 
-2. > If there are no loops and no nested function calls, it is often that is a O(1) complexity [Constant time complexity]
+2. > O(1): If there are no loops and no nested function calls, it is often that is a O(1) complexity [Constant time complexity]
+
+3. > O(log n): Look for functions where n is split (divided) into smaller "chunks", this often is a O(log n) complexity [Logarithmic complexity]
 
 #### **The bitwise magic 🤯**
 
