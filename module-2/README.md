@@ -49,10 +49,28 @@ We have seen to Big O notation by far, and these are:
 - O(n): Higher n leads to a linear increase in runtime. 
 - O(1): Higher n does not affect runtime.
 
-##### **How to quickly identify the time complexity of an algorithm?**
+#### **How to quickly identify the time complexity of an algorithm?**
 
 There are two simple rules to identify the complexity of an algorithm:
 
 1. > Typically when you have a single loop (no nested loops), it is often that the complexity will be O(n) [Linear time complexity]
 
 2. > If there are no loops and no nested function calls, it is often that is a O(1) complexity [Constant time complexity]
+
+#### **The bitwise magic 🤯**
+
+The bitwise operator using the operator '&' takes two equal-length binary representations and performs the logical AND operation on each pair of the corresponding bits. 
+
+For example: 
+If we have the binary representation for the integers 12 (1100) and 5 (0101), the bitwise operator is going to 
+
+```yml
+1100
+0101
+-----
+0101 // yields
+```
+
+See the the example function that performs an O(1) for the "is power of two? algorithm"
+
+⚠️ It is not a very common interview question but this is a really nice approach to find the best performance to solve this problem.

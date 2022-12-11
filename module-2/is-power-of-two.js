@@ -10,6 +10,10 @@ export default function isPowerOfTwo() {
   // Solution given in tutorial is fine to me, but I think the refactored code
   // is better 😃
   function isPowerOfTwo(number) {
+    if (number < 1) {
+      return false;
+    }
+
     let dividedNumber = number;
     let isPowerOfTwo = false;
 
@@ -19,6 +23,13 @@ export default function isPowerOfTwo() {
     }
 
     return isPowerOfTwo;
+  }
+
+  function isPowerOfTwoBEST(number) {
+    if (number < 1) {
+      return false;
+    }
+    return (number & (number - 1)) === 0;
   }
 
   console.log(
@@ -50,5 +61,11 @@ export default function isPowerOfTwo() {
     "%cIs 13 power of two?:",
     "color: yellow; font-style: italic; background-color: black; padding: 2px",
     isPowerOfTwo(13)
+  );
+
+  console.log(
+    "%cIs 8 power of two? 🤯 The bitwise magic (binary) => O(1)",
+    "color: yellow; font-style: italic; background-color: black; padding: 2px",
+    isPowerOfTwoBEST(8)
   );
 }
