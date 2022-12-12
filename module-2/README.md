@@ -41,7 +41,7 @@ The algorithm needs to do **one thing**:
 You can see the code for prime [here](https://github.com/xdiegom/algorithms-crash-course-notes/blob/main/module-2/prime.js)
 
 See the console of your web browser to see the result.
-#### **Is power of two?**
+#### **Is power of two? - O(log n)**
 
 "_Is the mathematical operation where the input number is the power of the number 2 as the form of 2^n._"
 
@@ -51,7 +51,6 @@ Determine if the given number is power of two. Returns "true" if is power of two
 
 - isPowerOfTwo(8) // true
 - isPowerOfTwo(5) // false
-
 
 The algorithm needs to do **one thing**:
 
@@ -93,3 +92,19 @@ If we have the binary representation for the integers 12 (1100) and 5 (0101), th
 See the the [code example](https://github.com/xdiegom/algorithms-crash-course-notes/blob/2c57d2bf0ae52f6d40046c37c80dd0281ba94103/module-2/is-power-of-two.js#L28) function that performs an O(1) for the "is power of two? algorithm"
 
 ⚠️ It is not a very common interview question but this is a really nice approach to find the best performance to solve this problem.
+
+#### **Factorial - O(n)**
+
+"_A factorial is a mathematical operation that multiplies a number by every number below it till 1._"
+
+#### **💭 Problem**
+
+Calculate the factorial of a number. 
+
+fact(5) = 5 x 4 x 3 x 2 x 1 = 120
+
+The algorithm needs to do **one thing**:
+
+1. Go through all smaller numbers of the given number and multiply them with each other (and with the input number)
+
+See the console of your web browser to see the result.

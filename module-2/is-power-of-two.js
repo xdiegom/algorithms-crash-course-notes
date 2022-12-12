@@ -33,7 +33,7 @@ export default function isPowerOfTwo() {
   }
 
   console.log(
-    "%c - Is power of two?",
+    "%cIs power of two? - O(log n)",
     "color: green; font-style: italic; background-color: black; padding: 2px"
   );
 
